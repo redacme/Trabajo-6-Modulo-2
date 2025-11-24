@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥Grupo 2🔥</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <span>
+            <a href="index.html">Inicio</a>
+            <a href="assets/html/alberto.html">Alberto</a>
+            <a href="assets/html/sergio.html">Sergio</a>
+            <a href="assets/html/arantxa.html">Arantxa</a>
+            </span>
+        </nav>
+    <header>
+        <h1>🔥Los integrantes del Grupo 2 son:🔥</h1>
+    </header>
+    <main>
+        <section>
+            <h2>🤘ROCKEROS🤘</h2>
+            <p>
+            <img  id="banda2"  src="assets/img/banda2.png" alt="Foto de la banda" >
+            </p>
+            <ul>
+                <div>
+                <li>𖤐Alberto Montealegre 𖤐  (Beto Rock)</li>
+                <li>𖤐Sergio Sanchez 𖤐  (Checho Drums)</li>
+                <li>𖤐Arantxa González𖤐  (GuitAra)</li>
+                </div>
+            </ul>
+            <h2> 🤘Somos rockeros virtuales aprendiendo herramientas de programación, además nos une la música y el código🤘</h2>
+        <nav>
+    </nav>
+        </section>
+    </main>
+</body>
+<footer>
+    <p>© 2025 Grupo 2. Todos los derechos reservados.</p>
+</html>
