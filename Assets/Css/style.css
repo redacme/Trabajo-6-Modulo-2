@@ -1,0 +1,82 @@
+#banda2
+{
+    width: 50%;
+    height: 50%;
+    border-radius: 10%; /* bordes redondeados */
+    }
+
+#arantxa, #Beto, #sergio    
+{
+    width: 20%;
+    height: 20%;
+    }
+
+nav {
+    text-align: center;
+    color: #00ff00e6; /* corregido */;
+    overflow: hidden;
+    border: 1px solid #ffffff; /* añadir ancho y estilo */
+    border-radius: 0%;
+}
+body { /* corregido: selector válido */
+    width: 100%;
+    height: 100%;
+    background-color: #ff5900;
+; /* color de respaldo; si usas imagen, se aplicará encima */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('../img/fondo.jpg'); /* ruta relativa correcta desde assets/css/ */
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+}
+title, h1, p,footer {
+    color: #fbff00; /* corregido */
+    text-align: center;
+    font-size: 40px;
+}
+h2 {
+    color: #f6ff00; /* corregido */
+    text-align: center;
+    font-size: 30px;
+}
+ul, li {
+    background-color: transparent; /* <<< ya no tapa el fondo */
+    color: #ffffff;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: rgba(0,0,0,0.7);
+    border: 10px solid rgb(37,4,52);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+span {
+    display: inline-block;
+    background-color: #ffffff; /* color de fondo del span */
+    padding: 10px;
+    border: 2px solid #000000; /* borde alrededor del span */
+    border-radius: 5%; /* bordes redondeados */
+}
+.caja-info {
+    background-color: rgba(0,0,0,0.7);
+    border: 10px solid rgb(37,4,52);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;  /* mantiene tamaño según contenido */
+    width: auto;            /* <<< evita que se haga gigante */
+    max-width: 80%;         /* opcional, para que no pase de tamaño */
+    margin: 20px auto;
+}
+section ul {
+    list-style-position: inside;   /* Hace que el punto quede pegado al texto */
+    padding-left: 0;               /* Quita espacio innecesario */
+    margin-left: 0;                /* Evita que se aleje la lista */
+}
